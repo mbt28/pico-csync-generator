@@ -24,7 +24,7 @@ mkdir build && cd build
 cmake ..
 make -j
 ```
-Flash the resulting `pico2w_csync_step1.uf2` to your Pico 2 W.
+Flash the resulting `pico2w_csync_step1.uf2` to your Pico 2/W.
 
 ## Notes
 - Output is 3.3V TTL. For SCART/75Ω you need proper resistor network/AC coupling.
