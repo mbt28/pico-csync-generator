@@ -1,3 +1,7 @@
+// This code tries to mimic the same logic in rp1_dpi_pio.c with using RPI Pico. Currently only supports progressive composite sync generation.
+// Some parts directly derived from rp1_dpi_pio.c Copyright (c) 2024 Raspberry Pi Ltd.
+// github.com/raspberrypi/linux/blob/rpi-6.12.y/drivers/gpu/drm/rp1/rp1-dpi/rp1_dpi_pio.c
+
 // main.c — Pico 2 W (RP2350) PIO CSYNC generator — mirrors RP1 rp1_dpi_pio.c (progressive)
 #include <stdio.h>
 #include "pico/stdlib.h"
